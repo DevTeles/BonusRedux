@@ -22,6 +22,7 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
   return (
     <article key={product.id}>
       <strong>{product.title}</strong> {" - "}
+      <span>{product.brand}</span> {" - "}
       <span>{product.price}</span> {" - "}          
 
       <button 
